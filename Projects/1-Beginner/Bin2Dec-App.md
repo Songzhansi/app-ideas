@@ -1,47 +1,39 @@
-# Bin2Dec
+# 二进制转十进制转换器
 
-**Tier:** 1-Beginner
+**等级：** 1-初学者
 
-Binary is the number system all digital computers are based on.
-Therefore it's important for developers to understand binary, or base 2,
-mathematics. The purpose of Bin2Dec is to provide practice and
-understanding of how binary calculations.
+二进制是所有数字计算机所基于的数字系统。因此，开发人员理解二进制或基数2的数学是很重要的。Bin2Dec 的目的是提供二进制计算的练习和理解。
 
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
+Bin2Dec 允许用户以任意顺序输入最多8位二进制数字（0和1），然后显示其等效的十进制数。
 
-This challenge requires that the developer implementing it follow these
-constraints:
+此挑战要求实现它的开发人员遵循以下约束：
 
--   Arrays may not be used to contain the binary digits entered by the user
--   Determining the decimal equivalent of a particular binary digit in the
-    sequence must be calculated using a single mathematical function, for
-    example the natural logarithm. It's up to you to figure out which function
-    to use.
+-   不得使用数组来包含用户输入的二进制数字
+-   确定序列中特定二进制数字的十进制等效值必须使用单个数学函数进行计算，例如自然对数。由你来找出使用哪个函数。
 
-## User Stories
+## 用户故事
 
--   [ ] User can enter up to 8 binary digits in one input field
--   [ ] User must be notified if anything other than a 0 or 1 was entered
--   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+-   [ ] 用户可以在一个输入字段中输入最多8位二进制数字
+-   [ ] 如果输入了0或1以外的任何内容，必须通知用户
+-   [ ] 用户在单个输出字段中查看结果，该字段包含输入的二进制数的十进制（基数10）等效值
 
-## Bonus features
+## 附加功能
 
--   [ ] User can enter a variable number of binary digits
+-   [ ] 用户可以输入可变数量的二进制数字
 
-## Useful links and resources
+## 有用的链接和资源
 
-[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+[二进制数系统](https://en.wikipedia.org/wiki/Binary_number)
 
-## Example projects
+## 示例项目
 
-Try not to view this until you've developed your own solution:
+在开发出自己的解决方案之前，尽量不要查看这些：
 
--   [Binary to decimal conversion program for beginners](https://www.youtube.com/watch?v=YMIALQE26KQ)
--   [Binary to Decimal converter using React](https://github.com/email2vimalraj/Bin2Dec)
--   [Binary to Decimal converter with plain html, js and css](https://grfreire.github.io/Bin2Dec/)
--   [Binary to Decimal converter using Flutter & Dart](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
-    -   [Live preview built with Flutter for Web](https://bin2dec.web.app/#/)
--   [Binary to Decimal converter using React](https://github.com/geoffctn/Bin2Dec)
--   [Matrix-like Binary to Decimal converter using Angular](https://github.com/ZangiefWins/MatrixBin2Dec)
-    -   [Live preview on heroku](https://matrix-bin2dec.herokuapp.com/)
+-   [初学者的二进制到十进制转换程序](https://www.youtube.com/watch?v=YMIALQE26KQ)
+-   [使用 React 的二进制到十进制转换器](https://github.com/email2vimalraj/Bin2Dec)
+-   [使用纯 html、js 和 css 的二进制到十进制转换器](https://grfreire.github.io/Bin2Dec/)
+-   [使用 Flutter & Dart 的二进制到十进制转换器](https://github.com/israelss/AppIdeasCollection/tree/master/Tier1/Bin2Dec)
+    -   [使用 Flutter for Web 构建的在线预览](https://bin2dec.web.app/#/)
+-   [使用 React 的二进制到十进制转换器](https://github.com/geoffctn/Bin2Dec)
+-   [使用 Angular 的矩阵风格二进制到十进制转换器](https://github.com/ZangiefWins/MatrixBin2Dec)
+    -   [Heroku 上的在线预览](https://matrix-bin2dec.herokuapp.com/)
